@@ -23,7 +23,7 @@ export default function Bottom({screenConfig}) {
     <BottomNavigation
       value={screenConfig}
       onChange={(event, newValue) => {
-          console.log(newValue)
+          // console.log(newValue)
           screenConfig[1](newValue);
       }}
       showLabels
